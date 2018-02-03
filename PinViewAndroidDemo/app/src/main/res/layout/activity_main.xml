@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.blogspot.thejavedsalat.pinviewandroiddemo.MainActivity">
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/txt_pin_entry2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="108dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:focusable="true"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textColor="@android:color/transparent"
+        android:textIsSelectable="false"
+        android:textSize="0px"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:pinBackgroundDrawable="@drawable/bg_pin_round"
+        app:pinBackgroundIsSquare="true"
+        app:pinCharacterSpacing="4dp"
+        app:pinTextBottomPadding="4dp" />
+
+</android.support.constraint.ConstraintLayout>
